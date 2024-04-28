@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="Name" value="Paresh"></parameter>
+  <parameter name="Browser" value="Chrome"></parameter>
+  <parameter name="Test" value="Trying my best"></parameter>
+    <classes>
+      <class name="com.Regression.TestRunWithTestNGLogin5"/>
+      <class name="com.Regression.TestRunWithTestNGProduct5"/>
+      <class name="com.Regression.TestRunWithTestNGPayment5"/>
+      <class name="com.smoke.TestRunWithTestNGFunctionalTest5"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
