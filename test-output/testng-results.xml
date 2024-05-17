@@ -1,50 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-28T18:37:18 EDT" name="Suite" finished-at="2024-04-28T18:37:18 EDT" duration-ms="141">
+  <suite started-at="2024-05-02T19:52:19 EDT" name="Default suite" finished-at="2024-05-02T19:52:19 EDT" duration-ms="148">
     <groups>
-      <group name="Functional Test">
-        <method signature="TestRunWithTestNGLogin5.getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin5@34a3d150]" name="getLogin" class="com.Regression.TestRunWithTestNGLogin5"/>
-        <method signature="TestRunWithTestNGProduct5.getProduct()[pri:1, instance:com.Regression.TestRunWithTestNGProduct5@692f203f]" name="getProduct" class="com.Regression.TestRunWithTestNGProduct5"/>
-      </group> <!-- Functional Test -->
-      <group name="Smoke Test">
-        <method signature="TestRunWithTestNGLogin5.getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin5@34a3d150]" name="getLogin" class="com.Regression.TestRunWithTestNGLogin5"/>
-      </group> <!-- Smoke Test -->
-      <group name="Regression">
-        <method signature="TestRunWithTestNGLogin5.getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin5@34a3d150]" name="getLogin" class="com.Regression.TestRunWithTestNGLogin5"/>
-      </group> <!-- Regression -->
-      <group name="Unit Test">
-        <method signature="TestRunWithTestNGLogin5.getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin5@34a3d150]" name="getLogin" class="com.Regression.TestRunWithTestNGLogin5"/>
-        <method signature="TestRunWithTestNGPayment5.getPayment()[pri:2, instance:com.Regression.TestRunWithTestNGPayment5@48f2bd5b]" name="getPayment" class="com.Regression.TestRunWithTestNGPayment5"/>
-        <method signature="TestRunWithTestNGFunctionalTest5.getBilling()[pri:2, instance:com.smoke.TestRunWithTestNGFunctionalTest5@7b2bbc3]" name="getBilling" class="com.smoke.TestRunWithTestNGFunctionalTest5"/>
-      </group> <!-- Unit Test -->
     </groups>
-    <test started-at="2024-04-28T18:37:18 EDT" name="Test" finished-at="2024-04-28T18:37:18 EDT" duration-ms="141">
-      <class name="com.Regression.TestRunWithTestNGPayment5">
-        <test-method signature="getPayment()[pri:2, instance:com.Regression.TestRunWithTestNGPayment5@48f2bd5b]" started-at="2024-04-28T18:37:18 EDT" name="getPayment" description="Payment Function" finished-at="2024-04-28T18:37:18 EDT" duration-ms="6" status="PASS">
+    <test started-at="2024-05-02T19:52:19 EDT" name="Default test" finished-at="2024-05-02T19:52:19 EDT" duration-ms="148">
+      <class name="com.TestNG.Practice.TestNGPractice">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="beforeSuite" finished-at="2024-05-02T19:52:19 EDT" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPayment -->
-      </class> <!-- com.Regression.TestRunWithTestNGPayment5 -->
-      <class name="com.Regression.TestRunWithTestNGLogin5">
-        <test-method signature="getLogin()[pri:0, instance:com.Regression.TestRunWithTestNGLogin5@34a3d150]" started-at="2024-04-28T18:37:18 EDT" name="getLogin" description="Login Function" finished-at="2024-04-28T18:37:18 EDT" duration-ms="18" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="beforeTest" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="beforeClass" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="beforeMethod" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getLogin()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="getLogin" finished-at="2024-05-02T19:52:19 EDT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLogin -->
-      </class> <!-- com.Regression.TestRunWithTestNGLogin5 -->
-      <class name="com.smoke.TestRunWithTestNGFunctionalTest5">
-        <test-method signature="getBilling()[pri:2, instance:com.smoke.TestRunWithTestNGFunctionalTest5@7b2bbc3]" started-at="2024-04-28T18:37:18 EDT" name="getBilling" description="Billing Function" finished-at="2024-04-28T18:37:18 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="afterMethod" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBilling -->
-      </class> <!-- com.smoke.TestRunWithTestNGFunctionalTest5 -->
-      <class name="com.Regression.TestRunWithTestNGProduct5">
-        <test-method signature="getProduct()[pri:1, instance:com.Regression.TestRunWithTestNGProduct5@692f203f]" started-at="2024-04-28T18:37:18 EDT" name="getProduct" description="Product Function" finished-at="2024-04-28T18:37:18 EDT" duration-ms="2" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="beforeMethod" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getPayment()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="getPayment" finished-at="2024-05-02T19:52:19 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPayment -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="afterMethod" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="beforeMethod" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getProduct()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="getProduct" finished-at="2024-05-02T19:52:19 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProduct -->
-      </class> <!-- com.Regression.TestRunWithTestNGProduct5 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="afterMethod" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="afterClass" finished-at="2024-05-02T19:52:19 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="tearDown" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.TestNG.Practice.TestNGPractice@40a4337a]" started-at="2024-05-02T19:52:19 EDT" name="afterSuite" finished-at="2024-05-02T19:52:19 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.TestNG.Practice.TestNGPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
