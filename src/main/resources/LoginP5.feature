@@ -1,4 +1,4 @@
-@Smok @Regression @Functional
+@Smoke @Regression @Functional
 Feature:Login Function Test
 Description:
 Background
